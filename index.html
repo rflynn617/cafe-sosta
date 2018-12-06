@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cafe Sosta</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- font awesome js -->
+    <script src="js/fontawesome-all.js"></script>
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- pre loader -->
+    <div class="preloader">
+      <img src="img/preloader.gif" alt="preloader" class="preloader__item" />
+    </div>
+    <!-- end of pre loader -->
+
+    <!-- social icons and address -->
+    <div class="container-fluid info p-1" id="top-icons">
+      <div class="row">
+        <div
+          class="col d-flex justify-content-between align-items-baseline flex-wrap"
+        >
+          <div class="info-icons p-2 ml-5">
+            <a
+              href="https://www.facebook.com/robert.flynn.792"
+              target="_blank"
+              class="mr-3 primary-color"
+              ><i class="fab fa-facebook fa-2x"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/rflynn617/?hl=en"
+              target="_blank"
+              class="mr-3 primary-color"
+              ><i class="fab fa-instagram fa-2x"></i
+            ></a>
+            <a
+              href="https://twitter.com/robertf617km"
+              target="_blank"
+              class="mr-3 primary-color"
+              ><i class="fab fa-twitter fa-2x"></i
+            ></a>
+            <a href="#" class="mr-3 primary-color"
+              ><i class="fab fa-yelp fa-2x"></i
+            ></a>
+          </div>
+          <h2 class="primary-color text-capitalize address p-2 mr-5">
+            <i class="fas fa-map-marker pr-2"></i>2501 Garibaldi Ave, New York,
+            NY 10112
+          </h2>
+        </div>
+      </div>
+    </div>
+    <!-- end of social icons and address -->
+
+    <!-- header -->
+    <header id="header">
+      <div class="container">
+        <div class="row height-90 align-items-center justify-content-center">
+          <div class="col">
+            <div class="banner text-center">
+              <h1 class="display-1 text-capitalize w-50 mx-auto">
+                <small>cafe</small> <strong class="title">sosta</strong>
+              </h1>
+              <a
+                href="#menu-items"
+                class="btn main-btn menu-btn my-4 text-capitalize"
+                >our menu</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of header section -->
+
+      <!-- header link -->
+      <a href="#menu-items" class="btn header-link"
+        ><i class="fas fa-angle-double-down"></i
+      ></a>
+    </header>
+
+    <!-- end of header link section -->
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand text-uppercase primary-color pl-5" href="#"
+        >sosta</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#myNavbar"
+      >
+        <div class="toggler-btn">
+          <div class="bar bar1"></div>
+          <div class="bar bar2"></div>
+          <div class="bar bar3"></div>
+        </div>
+      </button>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link text-capitalize" href="#top-icons">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize" href="#menu-items"
+              >menu items</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize" href="#our-story">our story</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize" href="#reviews">reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize" href="#contact">contact</a>
+          </li>
+        </ul>
+        <form class="form-inline d-none d-lg-block mr-5">
+          <button class="btn nav-btn text-capitalize" type="button">
+            order online
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- end of navbar -->
+
+    <!-- menu items section -->
+    <section class="menu py-5" id="menu-items">
+      <div class="container my-5">
+        <div class="row parent-container">
+          <!-- menu item -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+            <div class="item-container">
+              <img
+                src="img/banner-bcg-2.jpg"
+                class="img-fluid img-thumbnail item-img"
+                alt="menu item"
+              />
+              <a href="#">
+                <h1 class="text-uppercase text-center item-link px-3">
+                  coffee & teas
+                </h1>
+              </a>
+            </div>
+          </div>
+          <!-- end of menu item -->
+          <!-- menu item -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3" id="menu">
+            <div class="item-container">
+              <img
+                src="img/pastry-menu-item-7.jpg"
+                class="img-fluid img-thumbnail item-img"
+                alt="menu item"
+              />
+              <a href="#">
+                <h1 class="text-uppercase text-center item-link px-3">
+                  pastries & snacks
+                </h1>
+              </a>
+            </div>
+          </div>
+          <!-- end of menu item -->
+          <!-- menu item -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+            <div class="item-container">
+              <img
+                src="img/pizza-menu-item-2.jpg"
+                class="img-fluid img-thumbnail item-img"
+                alt="menu item"
+              />
+              <a href="#">
+                <h1 class="text-uppercase text-center item-link px-3">
+                  focaccia & pizza
+                </h1>
+              </a>
+            </div>
+          </div>
+          <!-- end of menu item -->
+          <!-- menu item -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+            <div class="item-container">
+              <img
+                src="img/gelato-menu-item-2.jpg"
+                class="img-fluid img-thumbnail item-img"
+                alt="menu item"
+              />
+              <a href="#">
+                <h1 class="text-uppercase text-center item-link px-3">
+                  gelato
+                </h1>
+              </a>
+            </div>
+          </div>
+          <!-- end of menu item -->
+          <!-- menu item -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+            <div class="item-container">
+              <img
+                src="img/yogurt-item-1.jpg"
+                class="img-fluid img-thumbnail item-img"
+                alt="menu item"
+              />
+              <a href="#">
+                <h1 class="text-uppercase text-center item-link px-3">
+                  yogurts and fruit
+                </h1>
+              </a>
+            </div>
+          </div>
+          <!-- end of menu item -->
+          <!-- menu item -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+            <div class="item-container">
+              <img
+                src="img/chocolate-item-1.jpg"
+                class="img-fluid img-thumbnail item-img"
+                alt="menu item"
+              />
+              <a href="#">
+                <h1 class="text-uppercase text-center item-link px-3">
+                  chocolates
+                </h1>
+              </a>
+            </div>
+          </div>
+          <!-- end of menu item -->
+        </div>
+      </div>
+    </section>
+    <!-- end of menu section -->
+
+    <!-- about/our story section -->
+    <section class="about section-padding mx-auto py-3" id="our-story">
+      <div class="grid-container grid-container--medium-2">
+        <!-- about container -->
+        <article class="about-container">
+          <!-- first child -->
+          <div class="section-title">
+            <h1 class="section-title__name">our story</h1>
+            <div class="section-title__underline"></div>
+            <p class="section-title__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              illum, temporibus expedita cupiditate rerum illo porro maiores
+              doloremque accusantium a libero molestias accusamus, sapiente
+              minima perferendis, reprehenderit vero quidem pariatur.
+              Reprehenderit voluptatum, amet debitis consectetur assumenda
+              reiciendis mollitia, dolores nemo corrupti maiores a illum, veniam
+              expedita. Vitae provident tempora sed.
+            </p>
+          </div>
+          <!-- second child -->
+          <div class="about__img">
+            <img
+              src="img/banner-bcg-8.jpg"
+              class="about__img-item"
+              alt="about-img"
+            />
+          </div>
+        </article>
+        <!-- end of about container -->
+        <!-- about container -->
+        <article class="about-container">
+          <!-- first child -->
+          <div class="section-title">
+            <h1 class="section-title__name">our mission</h1>
+            <div class="section-title__underline"></div>
+            <p class="section-title__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio,
+              placeat ratione in libero soluta aliquid mollitia, est obcaecati
+              recusandae quasi consectetur atque nam velit ipsum dicta, dolorem
+              a explicabo eius voluptates! Aliquid temporibus eligendi atque
+              dignissimos, hic vel tenetur exercitationem, placeat nobis
+              molestiae perferendis rem. Ipsa placeat modi ab explicabo.
+            </p>
+          </div>
+          <!-- second child -->
+          <div class="about__img about__img-special">
+            <img
+              src="img/banner-bcg-1.jpg"
+              class="about__img-item"
+              alt="about-img"
+            />
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- end of about container -->
+    <!-- end of about/our story section -->
+
+    <!-- instagram connect -->
+    <section class="instagram mx-auto" id="instagram">
+      <div class="container d-flex justify-content-center align-items-center">
+        <div class="row">
+          <div class="col">
+            <h1 class="instagram-title text-uppercase">
+              instagram <i class="fab fa-instagram"></i>
+            </h1>
+            <a
+              href="https://www.instagram.com/rflynn617/?hl=en"
+              target="_blank"
+              class="btn instagram-btn"
+              >follow us</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of instagram connect -->
+
+    <!-- reviews section -->
+    <section id="reviews" class="py-5">
+      <div class="reviews-title ">
+        <h1 class="review text-uppercase">reviews</h1>
+      </div>
+      <div id="slider" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <!-- carousel item -->
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div
+                  class="col-lg-10 mx-auto d-flex justify-content-between review-item py-5"
+                >
+                  <!-- image -->
+                  <div class="align-self-center ml-3">
+                    <img
+                      src="img/customer-1.jpg"
+                      alt=""
+                      class="rounded-circle review-img"
+                    />
+                  </div>
+                  <!-- text -->
+                  <div class="review-text px-5">
+                    <h2 class="text-capitalize mb-3 primary-color">john doe</h2>
+                    <p class="lead">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Ea magnam beatae dolore quis suscipit saepe numquam
+                      deserunt asperiores officiis quaerat repellat eveniet
+                      architecto praesentium consequatur quo illum assumenda
+                      tempora facilis neque, consequuntur labore corrupti, cum
+                      voluptatem! Ab, vitae! Ipsa, cumque.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of carousel item -->
+          <!-- carousel itme -->
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div
+                  class="col-lg-10 mx-auto d-flex justify-content-between review-item py-5"
+                >
+                  <!-- image -->
+                  <div class="align-self-center ml-3">
+                    <img
+                      src="img/customer-2.jpg"
+                      alt=""
+                      class="rounded-circle review-img"
+                    />
+                  </div>
+                  <!-- text -->
+                  <div class="review-text px-5">
+                    <h2 class="text-capitalize mb-3 primary-color">jane doe</h2>
+                    <p class="lead">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Expedita reprehenderit temporibus sequi, tempora iste
+                      error pariatur voluptatum inventore mollitia sunt illum
+                      beatae? Veritatis animi minus dolor? Rem at placeat nihil
+                      aliquam debitis! Iste, eveniet ex?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of carousel item -->
+          <!-- carousel item -->
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div
+                  class="col-lg-10 mx-auto d-flex justify-content-between review-item py-5"
+                >
+                  <!-- image -->
+                  <div class="align-self-center ml-3">
+                    <img
+                      src="img/customer-3.jpg"
+                      alt=""
+                      class="rounded-circle review-img"
+                    />
+                  </div>
+                  <!-- text -->
+                  <div class="review-text px-5">
+                    <h2 class="text-capitalize mb-3 primary-color">lisa doe</h2>
+                    <p class="lead">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Ullam tenetur culpa vero sunt voluptates quibusdam
+                      voluptate optio tempore quam nam? Alias fugiat repudiandae
+                      rem dicta quas ab dolorum corrupti maiores?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of carousel item -->
+        </div>
+        <!-- carousel controls -->
+        <a
+          href="#slider"
+          class="carousel-control-prev"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a
+          href="#slider"
+          class="carousel-control-next"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+    <!-- end of reviews section -->
+
+    <!-- facebook connect -->
+    <section class="facebook mx-auto" id="facebook">
+      <div class="container d-flex justify-content-center align-items-center">
+        <div class="row">
+          <div class="col">
+            <h1 class="facebook-title text-uppercase">
+              facebook <i class="fab fa-facebook"></i>
+            </h1>
+            <a
+              href="https://www.facebook.com/robert.flynn.792"
+              target="_blank"
+              class="btn facebook-btn"
+              >follow us</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of facebook connect -->
+
+    <!-- phone and address -->
+    <div class="container-fluid info p-1" id="phone-address">
+      <div class="row">
+        <div
+          class="col d-flex phone-address justify-content-center align-items-baseline flex-wrap"
+        >
+          <h2 class="primary-color text-capitalize address p-2 mr-5">
+            <i class="fas fa-phone pr-2"></i>123-456-7890
+          </h2>
+
+          <h2 class="primary-color text-capitalize address p-2 mr-5">
+            <i class="fas fa-map-marker pr-2"></i>2501 Garibaldi Ave, New York,
+            NY 10112
+          </h2>
+        </div>
+      </div>
+    </div>
+    <!-- end of phone and address -->
+
+    <!-- contact section -->
+    <section id="contact">
+      <div class="container-fluid pb-3 contact-info">
+        <div class="row">
+          <div class="col-md-6 my-3">
+            <div class="embed-responsive embed-responsive-21by9 height-60">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.279909073!2d-74.25987368715491!3d40.69767006458873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY!5e0!3m2!1sen!2sus!4v1542057906497"
+                class="map"
+                width="90%"
+                height="450"
+                frameborder="0"
+                style="border:0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-md-6 align-self-center contact-hours">
+            <div
+              class="hours-of-operation d-flex justify-content-center align-items-center"
+            >
+              <div class="text-center" id="footer-contact">
+                <i class="far fa-clock mb-3 clock"></i>
+                <div id="text-8" class="widget widget_text">
+                  <h3 class="footer-title">sosta hours</h3>
+                  <div class="textwidget">
+                    <ul class="store-hours">
+                      <li>
+                        <span class="left">Monday - Saturday</span>
+                        <span class="right">6:00 AM - 11:00 PM</span>
+                      </li>
+
+                      <li>
+                        <span class="left">Sunday</span>
+                        <span class="right">7:00 AM - 7:00 PM</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of contact section -->
+
+    <!-- footer -->
+    <div class="container-fluid info p-1" id="top-icons">
+      <div class="row">
+        <div
+          class="col d-flex justify-content-between align-items-baseline flex-wrap"
+        >
+          <div class="info-icons p-2 ml-5">
+            <a
+              href="https://www.facebook.com/robert.flynn.792"
+              target="_blank"
+              class="mr-3 primary-color"
+              ><i class="fab fa-facebook fa-2x"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/rflynn617/?hl=en"
+              target="_blank"
+              class="mr-3 primary-color"
+              ><i class="fab fa-instagram fa-2x"></i
+            ></a>
+            <a
+              href="https://twitter.com/robertf617km"
+              target="_blank"
+              class="mr-3 primary-color"
+              ><i class="fab fa-twitter fa-2x"></i
+            ></a>
+            <a href="#" class="mr-3 primary-color"
+              ><i class="fab fa-yelp fa-2x"></i
+            ></a>
+          </div>
+          <h2 class="footer-cr primary-color p-2 text-uppercase mr-5">
+            &copy;cafe sosta copyright 2018
+          </h2>
+        </div>
+      </div>
+    </div>
+    <!-- end of footer -->
+
+    <!-- back to top -->
+    <div class="back-to-top">
+      <a href="#top-icons" id="back-to-top" class="p-1"
+        ><i class="fas fa-arrow-up primary-color fa3x"></i
+      ></a>
+    </div>
+    <!-- end of back to top -->
+
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- javascript file -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
